@@ -10,16 +10,14 @@ public class Main {
 //void ключевое слово указывает, что метод не возвращает значение
 
     public static void main(String[] args) {
-        for (int i = 10; i <= 30; i += 10) {
-
-        }
-//        System.out.println("Try to guess number");
-//        int range = 1000;
-//        int number = (int)(Math.random() * range); // (int) converts output to INT, * range is a range to generate a num
-//        playLevel(range, number);
-//        scanner.close();
+        System.out.println("Try to guess a number");
+        for (int i = 10; i <= 30; i += 10) playLevel(i); // Если тело цикла из 1 строки, фигурные скобки можно не писать
+        System.out.println("Your are a winner!");
+        scanner.close();
     }
-    private static void playLevel(int range, int number) {
+
+    private static void playLevel(int range) {
+        int number = (int)(Math.random() * range); // (int) converts output to INT, * range is a range to generate a num
         while(true) {
             System.out.println("Guess number between 0 and " + range);
             int inputNumber = scanner.nextInt();
