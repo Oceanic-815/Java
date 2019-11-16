@@ -16,6 +16,7 @@ public class GameWindow extends JFrame {
     private static float drop_left = 200; // координата Х капли
     private static float drop_top = -100; // координата У капли (верхняя граница капли)
     private static float drop_v = 200; // Скорость капли
+    private static int score;
 
     public static void main(String[] args) throws IOException {
         background = ImageIO.read(GameWindow.class.getResourceAsStream("background.png")); // Загружаем картинки используя метод read io
@@ -43,6 +44,8 @@ public class GameWindow extends JFrame {
                     drop_top = -100; // Если попали, то ресетим каплю за пределы окна
                     drop_left = (int) (Math.random() * (game_field.getWidth() - drop.getWidth(null))); // Генерируем рандомное положение по горизонтали в пределах ширины поля
                     drop_v = drop_v + 20; // увеличиваем скорость движения капли
+                    score ++; // прибавляем 1 очек
+                    game_window.setTitle("Your score: " + score); // И выводим score в title игрового окна
                 }
             }
         });
