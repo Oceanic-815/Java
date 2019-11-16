@@ -14,7 +14,7 @@ public class GameWindow extends JFrame {
     private static float drop_left = 200; // координата Х капли
     private static float drop_top = -100; // координата У капли
     private static float drop_v = 200; // Скорость капли
-    
+
     public static void main(String[] args) throws IOException {
         background = ImageIO.read(GameWindow.class.getResourceAsStream("background.png")); // Загружаем картинки используя метод read io
         // а так как read может вызвать исключение, он подчеркнут. Поэтому добавляем в метод main сигнатуру throws IOException
@@ -37,6 +37,7 @@ public class GameWindow extends JFrame {
         float delta_time = (current_time - last_frame_time) * 0.000000001f; // вычисляем дельту и переводим наносек в сек
         last_frame_time = current_time; // время предыдущего кадра = текущее время
         drop_top = drop_top + drop_v * delta_time; // вычисляем текущую координату и присваиваем к капле
+        drop_left = drop_left + drop_v * delta_time;
 
         //g.fillOval(10,10, 200, 100); // рисуем овал
         //g.drawLine(20,20,70,70); // рисуем линию
