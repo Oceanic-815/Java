@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16e9fc2b-131f-450f-8464-925d6d880ebc" name="Default Changelist" comment="" />
+    <list default="true" id="2f09b07f-3c35-4632-bda4-67b8331ab49c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,7 +11,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1TexEKkHE6dGRkWnS9rg0aRMWhj" />
+  <component name="ProjectId" id="1ThvB7bZUepc9m9PQvhDTEOtCtp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -25,7 +25,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GameWindow">
+  <component name="RunManager">
     <configuration name="GameWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.pack.catch_drop.GameWindow" />
       <module name="catch_drop" />
@@ -39,24 +39,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="test.pack.catch_drop.Main" />
-      <module name="catch_drop" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.GameWindow" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.GameWindow" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -65,11 +50,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="16e9fc2b-131f-450f-8464-925d6d880ebc" name="Default Changelist" comment="" />
-      <created>1573834249528</created>
+      <changelist id="2f09b07f-3c35-4632-bda4-67b8331ab49c" name="Default Changelist" comment="" />
+      <created>1573925004373</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1573834249528</updated>
+      <updated>1573925004373</updated>
     </task>
     <servers />
   </component>
