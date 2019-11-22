@@ -30,6 +30,12 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Java\First\src\test\pack" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="test.pack.example1" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="test.pack" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -43,13 +49,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SeaBattle">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.pack.Main" />
+  <component name="RunManager" selected="Application.Hippodrome">
+    <configuration name="Hippodrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.pack.example3.Hippodrome" />
       <module name="First" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.pack.*" />
+          <option name="PATTERN" value="test.pack.example3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.pack.example1.Main" />
+      <module name="First" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.pack.example1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,11 +77,24 @@
       </method>
     </configuration>
     <configuration name="SeaBattle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.pack.SeaBattle" />
+      <option name="MAIN_CLASS_NAME" value="test.pack.example1.SeaBattle" />
       <module name="First" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.pack.*" />
+          <option name="PATTERN" value="test.pack.example1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sofa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.pack.example2.Sofa" />
+      <module name="First" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.pack.example2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,8 +104,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SeaBattle" />
+        <item itemvalue="Application.Hippodrome" />
+        <item itemvalue="Application.Sofa" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.SeaBattle" />
       </list>
     </recent_temporary>
   </component>

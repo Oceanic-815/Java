@@ -1,4 +1,4 @@
-package test.pack;
+package test.pack.example1;
 
 import java.util.Scanner;
 
@@ -33,8 +33,7 @@ public class SeaBattle {
                     break;
                 default:
                     System.out.println("Ошибка ввода");
-
             }
-        } while(cells[position] == 'X');
+        } while (cells[position] == 'X');
     }
 }

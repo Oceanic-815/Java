@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16e9fc2b-131f-450f-8464-925d6d880ebc" name="Default Changelist" comment="" />
+    <list default="true" id="79b40edb-5632-4f6c-8acd-7f6e1a5fab4d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1TexEKkHE6dGRkWnS9rg0aRMWhj" />
+  <component name="ProjectId" id="1TyHH85F0ZHKoSwp8JSLK5dlZ0l" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../First" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../First/src/test/pack/example1/SeaBattle.java" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -29,23 +35,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GameWindow">
-    <configuration name="GameWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.pack.catch_drop.GameWindow" />
-      <module name="catch_drop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.pack.catch_drop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="test.pack.catch_drop.Main" />
-      <module name="catch_drop" />
+      <option name="MAIN_CLASS_NAME" value="test.pack.seabattleoop.Main" />
+      <module name="SeaBattleOOP" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -53,13 +46,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.GameWindow" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GameWindow" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -69,11 +57,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="16e9fc2b-131f-450f-8464-925d6d880ebc" name="Default Changelist" comment="" />
-      <created>1573834249528</created>
+      <changelist id="79b40edb-5632-4f6c-8acd-7f6e1a5fab4d" name="Default Changelist" comment="" />
+      <created>1574425324223</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1573834249528</updated>
+      <updated>1574425324223</updated>
     </task>
     <servers />
   </component>
@@ -82,23 +70,10 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/pack/catch_drop/GameWindow.java</url>
-          <line>65</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
